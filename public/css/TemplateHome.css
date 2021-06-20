@@ -1,0 +1,85 @@
+/* general */
+* {font-family: 'Source Sans Pro', sans-serif;}
+
+/* header */
+header {
+	height: 100vh;
+	background: url('../images/imagen.jpg') no-repeat top center;
+	background-size: cover; padding-top: 3rem;
+}
+header nav {display: flex; justify-content: space-between;}
+header nav ul {display: flex; flex-flow: row wrap; justify-content: center; margin-top: 20px;}
+header nav ul li{list-style: none; margin: 5px 20px 0 0;}
+header nav a {color: #fff;}
+header nav a:hover {color: #fff; opacity:.6; text-decoration: none;}
+header nav img {margin-right: 5px;}
+header .caption {width: 40%; margin-top: 8%;}
+header .caption h2 {color: #fff; margin-bottom: 1rem; font-size: 3rem;}
+
+
+/* footer */
+footer {background: #000; padding: 3rem 0rem; color: #c5c5c5;}
+footer a {color: #c5c5c5;}
+footer a:hover {color: #fff; text-decoration: none;}
+
+
+/* cookies */
+#cookies {
+  background-color: rgba(0,0,0,0.6);
+  position: fixed; bottom: 0;left: 0;
+  width: 100%!important; height: auto;
+}
+#cookies .card {
+  border-radius: 0; background-color: transparent;
+  width: 100%!important; height: auto; color: #c5c5c5;
+}
+#cookies .card-body {padding: 10px 15px;}
+#cookies p, #cookies a {font-size: 11px;}
+#cookies a {color: #fff; text-decoration: underline;}
+#cookies p {margin-bottom: 0; color: #c5c5c5!important;}
+#cookies span {cursor: pointer; font-size: 16px; color: #fff!important;}
+
+
+
+/* sobreescribir bootstrap */
+.btn-primary {
+  color: #fff;
+  background-color: #8011BA;
+  border-color: #8011BA;
+  padding-right: 3rem;
+  padding-left: 3rem;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #9C30D5;
+  border-color: #9C30D5;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+  color: #fff;
+  background-color: #9C30D5;
+  border-color: #9C30D5;
+  box-shadow: 0 0 0 0rem rgba(200, 200, 200, 0);
+}
+
+#contact .btn-primary {
+  color: #8011BA;
+  background-color: #fff;
+  border-color: #fff;
+  padding-right: 3rem;
+  padding-left: 3rem;
+}
+
+#contact .btn-primary:hover {
+  color: #8011BA;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+#contact .btn-primary:focus, #contact .btn-primary.focus {
+  color: #8011BA;
+  background-color: #fff;
+  border-color: #fff;
+  box-shadow: 0 0 0 0rem rgba(200, 200, 200, 0);
+}
